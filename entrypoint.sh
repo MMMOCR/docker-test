@@ -4,4 +4,4 @@ set -eu
 
 SCRIPT=".github/${WORKFLOW_PATH}"
 
-$SCRIPT
+bash -c "$SCRIPT"
