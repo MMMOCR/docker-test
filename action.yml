@@ -1,0 +1,6 @@
+name: 'docker code tester'
+description: 'Runs all scripts mounted in '
+author: 'cl0pinette'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
