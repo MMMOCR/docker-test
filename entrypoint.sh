@@ -4,6 +4,6 @@ set -eu
 
 SCRIPT=".github/${WORKFLOW_PATH}"
 
-ls -la "$SCRIPT"
+chmod +x "$SCRIPT"
 
 bash -c "$SCRIPT"
